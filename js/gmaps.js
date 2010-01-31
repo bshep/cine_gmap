@@ -122,7 +122,7 @@ function theaterData_loaded(data) {
         var theater = data[i];
 
 		theater_list.innerHTML += '<div class="theater_item" onclick="$(\'.theater_item\').removeClass(\'selected\'); $(this).addClass(\'selected\'); doRouting(new GLatLng(' + theater.lat + ',' + theater.lon + '));">' +
-					'<img src="http://maps.google.com/mapfiles/ms/micons/arts.png">' + theater.name + '<br>'+
+					'<img src="http://maps.google.com/mapfiles/ms/micons/arts.png"><span>' + theater.name + '</span>'+
 				'</div>';
 
         point = new GLatLng(theater.lat, theater.lon);

@@ -2,6 +2,15 @@
 	font-family: fantasy;
 	background-color: #DDD;
 }
+
+.theater_item span {
+	padding-left: 5px;
+}
+
+.theater_item img {
+	vertical-align: middle;
+}
+
 .selected {
 	background-color: #CCC;
 }
