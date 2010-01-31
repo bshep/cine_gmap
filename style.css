@@ -1,0 +1,7 @@
+.theater_item {
+	font-family: fantasy;
+	background-color: #DDD;
+}
+.selected {
+	background-color: #CCC;
+}
