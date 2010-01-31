@@ -14,8 +14,10 @@
 	</head>
 	<body id="index">
     <div id="map_canvas" style="width: 70%; height: 100%; float:left; border: 1px solid black;"></div>
-    <div id="theater_list" style="width: 25%; height:50%; float:right; border; 1px solid black;"></div>
-    <div id="route" style="width: 25%; height:50%; float:right; border; 1px solid black;"></div>
+		<div id="sidebar">
+	    <div id="theater_list" style="height:50%; border; 1px solid black;"></div>
+	    <div id="route" style="height:50%; border; 1px solid black;"></div>			
+		</div>
 			
 		<div id="spinner" style="display: none; position: absolute; height: 100%; width: 100%; vertical-align: middle;">
 			<div style="line-height: 125px; text-align: center;">

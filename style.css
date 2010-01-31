@@ -5,3 +5,16 @@
 .selected {
 	background-color: #CCC;
 }
+
+#sidebar {
+	float: right;
+	width: 29%;
+}
+
+#route {
+	background-color: #FFF;
+}
+
+body {
+	background-color: #BBB;
+}
