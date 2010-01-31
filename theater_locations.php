@@ -1,10 +1,7 @@
 <?php 
 	error_reporting(E_ALL);
 
-	$db_host = '192.168.2.7';
-	$db_user = 'cine';
-	$db_pass = 'cine';
-	$db_name = 'cinescout';
+	require 'config.php';
 	
 	mysql_connect($db_host, $db_user, $db_pass);
 	mysql_select_db($db_name);

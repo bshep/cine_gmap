@@ -1,10 +1,12 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+<?php 
+	require 'config.php';
+?><!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
 	"http://www.w3.org/TR/html4/loose.dtd">
 	<head>
 		<meta http-equiv="Content-type" content="text/html; charset=utf-8">
 		<meta name="viewport" content="initial-scale=1.0, user-scalable=no">
 		<title>Maps Test</title>
-		<script src="http://maps.google.com/maps?file=api&amp;v=2&amp;key=ABQIAAAAubDCmub9dn6p5PUUq9VuEBTZoqX-YpbkveGxQB_KeGxbuUHNLhRts4pvv6vGuUx3GRsrufI0eYt4XA&amp;sensor=false" type="text/javascript"></script>
+		<script src="http://maps.google.com/maps?file=api&amp;v=2&amp;key=<?php echo $api_key; ?>&amp;sensor=false" type="text/javascript"></script>
 
 		<script src="js/jquery.js" type="text/javascript" charset="utf-8"></script>
 		<script src="js/gmaps.js" type="text/javascript" charset="utf-8"></script>
