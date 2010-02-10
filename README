@@ -4,3 +4,4 @@ Notes:
 	Ex: mysqldump cine --tables theater_info --tables theater -u root > db_schema.sql
 * Must update api-key to work with a different domain
 * Must update DB Settings to work with your configuration
+

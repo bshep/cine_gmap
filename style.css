@@ -1,6 +1,11 @@
 .theater_item {
 	font-family: fantasy;
-	background-color: #DDD;
+	background-color: #DEF;
+	border-bottom: 1px dashed;
+}
+
+.theater_item:last-child {
+	border-bottom: none;
 }
 
 .theater_item span {
@@ -12,7 +17,7 @@
 }
 
 .selected {
-	background-color: #CCC;
+	background-color: #BCD;
 }
 
 #sidebar {
@@ -21,9 +26,9 @@
 }
 
 #route {
-	background-color: #FFF;
+	background-color: #cde;
 }
 
 body {
-	background-color: #BBB;
+	background-color: #CDE;
 }
